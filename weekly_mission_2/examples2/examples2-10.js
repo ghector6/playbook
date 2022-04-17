@@ -15,7 +15,7 @@ class Explorer{
   class Viajero extends Explorer {
     constructor(name, username, mission, cycle){
       super(name, username, mission) // SUPER nos ayudará a llamar el constructor padre
-      this.cycle = cycle // Agregamos este atributo de la clase Viajero, es exclusiva de esta clase y no de la clase padre
+      this.cycle = new Date() // Agregamos este atributo de la clase Viajero, es exclusiva de esta clase y no de la clase padre
     }
   
     getGeneralInfo(){
