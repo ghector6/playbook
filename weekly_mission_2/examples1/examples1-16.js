@@ -13,4 +13,4 @@ const users = [
   })
   
   console.log("Ejemplo 16: Ordenando una lista de objetos por la edad")
-  console.log(users) // sorted ascending
+  console.log(users) // sorted ascending LO PUSE AL REÉS GG 
