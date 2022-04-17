@@ -1,4 +1,4 @@
-class pullRequest {
+export default class pullRequest {
     constructor(title, branchName, dateCreated, status, repositoryNameAssociated){
         this.title = title
         this.branchName = branchName
@@ -14,6 +14,6 @@ class pullRequest {
         return `This Pr titled ${this.title} was made by ${this.repositoryNameAssociated} on ${this.dateCreated}`
     }
 }
-const hectorPR = new pullRequest("lAUNCHX", "NodeJs",new Date(),"Open","Explorer Hec")
-console.log(hectorPR.getStatus())
-console.log(hectorPR.getTitleAndAuthor())
+const newPr = new pullRequest("lAUNCHX", "NodeJs",new Date(),"Open","Explorer Hec")
+console.log(newPr.getStatus())
+console.log(newPr.getTitleAndAuthor())
