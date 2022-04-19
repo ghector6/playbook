@@ -56,11 +56,17 @@ const explorers = [
           exercisesFinished: false
         }
       }
+      
+      
     }
    ]
-   //Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
+  //  //Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
    explorers.forEach(name => console.log(name.name)) //Imprimiendo nombre de explorers con forEach
-   //Imprime el stack de cada explorer, usa FOR EACH
-   explorers.forEach((stack) => console.log(stack.stack))
+  //  //Imprime el stack de cada explorer, usa FOR EACH
+   explorers.forEach((stack) => console.log(stack.stack))//Imprimiendo stack   
+  //  //Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
+   explorers.map((stacks ) => console.log(stacks.stack)) //Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
+
+
 
 
