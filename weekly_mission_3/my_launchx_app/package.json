@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ghector6/playbook/issues"
   },
-  "homepage": "https://github.com/ghector6/playbook#readme"
+  "homepage": "https://github.com/ghector6/playbook#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
