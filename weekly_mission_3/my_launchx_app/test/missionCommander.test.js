@@ -1,7 +1,6 @@
-describe("Esto es una suite de pruebas", () => {
-    test('Caso de prueba 1', () => {
-      const result = 1 + 2 
-      expect(result).toBe(3);
-    });
-  })
-  
+const missionCommander = require('./../app/missionCommander')
+
+test('1) Creating a new missionCommander', () => {
+    const myMissionCommander = new missionCommander('Debussy')
+    expect(myMissionCommander.name).toBe('Debussy'); // Corrige esta prueba
+  });
