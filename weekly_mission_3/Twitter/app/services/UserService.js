@@ -4,9 +4,10 @@ class UserService {
     static create(id, username, name){
         return new User(id, username, name, "Sin bio")
     }
-    static getInfo(){
-        return [1, "ghector6", "Hector", "Sin bio"]
+    static getInfo(name){
+        return Object.values(name)
     }
+   
     
 
 }
