@@ -5,6 +5,9 @@ const port = 3000
 app.get('/', (req, res) => {
     res.send("Hola a Hector")
 })
+app.get('/launchx', (req, res) => {
+    res.send('Bienvenidos a LaunchX')
+})
 
 app.listen(port, () => {
     console.log("Server Listo!")
