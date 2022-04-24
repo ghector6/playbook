@@ -9,6 +9,11 @@ app.get('/launchx', (req, res) => {
     res.send('Bienvenidos a LaunchX')
 })
 
+app.get('/explorerInNode', (req, res) => {
+    const explorer = { id: 1, name: "Explorer1", msg: `Hello Explorer`}
+    res.send(explorer)
+})
+
 app.listen(port, () => {
     console.log("Server Listo!")
 })
