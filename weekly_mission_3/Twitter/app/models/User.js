@@ -20,7 +20,7 @@ class User {
     get getLastUpdated() {
         return this.lastUpdated
     }
-    set setUsername(newUsername) {
+    set getUsername(newUsername) {
         this.username = newUsername 
     }
     set setBio(newBio){
