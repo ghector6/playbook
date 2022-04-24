@@ -14,6 +14,11 @@ app.get('/explorerInNode', (req, res) => {
     res.send(explorer)
 })
 
+app.get('/explorers:explorer', (req, res) => {
+    console.log(req.params)
+    res.send(req.params)
+})
+
 app.listen(port, () => {
     console.log("Server Listo!")
 })
