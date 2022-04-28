@@ -7,4 +7,4 @@ const ExplorerServices = require("./lib/services/ExplorerServices")
 const explorers = Reader.readJsonFile("explorers.json")
 //console.log(explorers)
 
-console.log(ExplorerServices.getAmountOfExplorersByMission(explorers, "node"))
+console.log(ExplorerServices.getExplorersUserNameByMission(explorers, "node"))
